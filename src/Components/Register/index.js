@@ -21,7 +21,7 @@ function RegisterPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("User Registered!");
-    navigate("/"); // Navigate after successful registration
+    navigate("/Chatbot"); // Navigate after successful registration
   };
 
   const handleLoginRedirect = () => {
